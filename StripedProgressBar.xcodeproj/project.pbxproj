@@ -48,16 +48,6 @@
 			path = StripedProgressBar;
 			sourceTree = "<group>";
 		};
-		84D40D042E16D42300716F66 /* StripedProgressBarTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StripedProgressBarTests;
-			sourceTree = "<group>";
-		};
-		84D40D0E2E16D42300716F66 /* StripedProgressBarUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StripedProgressBarUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				84D40CED2E16D42100716F66 /* StripedProgressBar */,
-				84D40D042E16D42300716F66 /* StripedProgressBarTests */,
-				84D40D0E2E16D42300716F66 /* StripedProgressBarUITests */,
 				84D40CEC2E16D42100716F66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				84D40D032E16D42300716F66 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				84D40D042E16D42300716F66 /* StripedProgressBarTests */,
-			);
 			name = StripedProgressBarTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				84D40D0D2E16D42300716F66 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				84D40D0E2E16D42300716F66 /* StripedProgressBarUITests */,
 			);
 			name = StripedProgressBarUITests;
 			packageProductDependencies = (
@@ -294,15 +276,15 @@
 				INFOPLIST_FILE = StripedProgressBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.azonaz.StripedProgressBar;
+				PRODUCT_BUNDLE_IDENTIFIER = cy.azonaz.StripedProgressBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,15 +304,15 @@
 				INFOPLIST_FILE = StripedProgressBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.azonaz.StripedProgressBar;
+				PRODUCT_BUNDLE_IDENTIFIER = cy.azonaz.StripedProgressBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
